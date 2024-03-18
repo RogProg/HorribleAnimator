@@ -1,5 +1,16 @@
 Wecome to Horrible Animator,..   the program for making horrible animations!
 
+Horrible animator is written in c++, for Windows (sorry) using direct2d.
+
+For mpeg4 compression it uses FFMpeg (https://ffmpeg.org/) under the LGPL lisense.
+
+
+
+
+
+About the use of HorribleAnimator:
+
+
 Start by selecting File->Open images and select the image files you want for the animation. Alpha channel images are reccomeded for figures.
 
 To set background, select Scene->select background and select from the files you just loaded.
@@ -40,4 +51,4 @@ Space starts/stops animation
 
 insert inserts frame
 
-delete deletes frame (note: if a cuepoint exists at current frame no del
+delete deletes frame (note: if a cuepoint exists at current frame no deletion is done)
