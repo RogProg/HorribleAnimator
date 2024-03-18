@@ -187,10 +187,6 @@ const int BROWSERSENDER = 4;
 
 #include "Encoder.h"
 
-#include "FreeImage.h"
-
-#include "FileLoader.h"
-
 #include "BMPLoader.h"
 
 #include "GfxTools.h"

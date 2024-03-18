@@ -22,20 +22,9 @@ Dxstuff::Dxstuff(HWND _hWnd, MainWindow* _mainwindow) {
 
     
     swprintf_s(Fil, lstrlenW(DIR) + lstrlenW(controlfile) + 2, L"%s\\%s", DIR, controlfile);
-
-    
+ 
     controlimg = MyBMPLoader->loadfile(Fil);
-    
-    if (controlimg == 0) {
-
-        MessageBoxW(mainwindow->hWnd, Fil, L"Error", MB_OK);
-
-        exit;
-    
-    }
-
-
-
+   
     swprintf_s(Fil, lstrlenW(DIR) + lstrlenW(up) + 2, L"%s\\%s", DIR, up);
 
     upimg = MyBMPLoader->loadfile(Fil);
