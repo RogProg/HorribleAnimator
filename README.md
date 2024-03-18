@@ -1,9 +1,12 @@
-Wecome to Horrible Animator,..   the program for making horrible animations!
+Wecome to Horrible Animator,..   the program for making horrible animations, fast.
+
+HorribleAnimator is a RogProg (www.rogprog.com) project under GPL 3.0.
+
+For any questions or feedback please e-mail to rogerkjode@hotmail.com
 
 Horrible animator is written in c++, for Windows (sorry) using direct2d.
 
 For mpeg4 compression it uses FFMpeg (https://ffmpeg.org/) under the LGPL lisense.
-
 
 
 
