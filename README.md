@@ -8,7 +8,7 @@ Horrible animator is written in c++, for Windows (sorry) using direct2d.
 
 For mpeg4 compression it uses FFMpeg (https://ffmpeg.org/) under the LGPL lisense.
 
-
+Apologize for little or no comments in code. I alomost never comment my code. :)
 
 
 About the use of HorribleAnimator:
